@@ -1,8 +1,11 @@
 [core]
-    remote = storage3
+    remote = storage4
 ['remote "storage"']
     url = https://drive.google.com/drive/u/0/folders/18Ht-peQfnV8wcrx7ze6uPnnZjVyiTNVz
 ['remote "storage2"']
     url = https://drive.google.com/drive/u/0/folders/1d1y-GbVb-HXCbT8O0mPF15R0gLBCawA0
 ['remote "storage3"']
     url = gdrive://1d1y-GbVb-HXCbT8O0mPF15R0gLBCawA0
+    gdrive_acknowledge_abuse = true
+['remote "storage4"']
+    url = gdrive://18Ht-peQfnV8wcrx7ze6uPnnZjVyiTNVz
